@@ -35,7 +35,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 60vh;
+    
 }
 
 .attribution {
@@ -47,7 +47,7 @@ body {
 .container {
     border-radius: 20px;
     width: 45vw;
-    height: 70vh;
+    height: 400px;
 
 }
 
