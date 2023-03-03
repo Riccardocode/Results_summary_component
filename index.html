@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <div class="container wrapper">
+      <!--############# Container Result-->
+      <div class="container container-result">
+        <h3 class="h3-header">Your Result</h3>
+
+        <div class="result">
+          <p class="ptag">76</p>
+          <p style="color: gray">of 100</p>
+        </div>
+
+        <div class="result_content">
+          <h3 style="color: white">Great</h3>
+          <p class="scored-text">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+      <!--############# End Container result-->
+
+      <!--############# Container Summary-->
+      <div class="container container-summary">
+        <h3 class="h3-summary">Summary</h3>
+
+        <div class="summary_details">
+          <p class="reaction p-summary sumBox">
+            <span class="icon-align" style="color: #e9938f">
+              <img
+                src="assets/images/icon-reaction.svg"
+                width="20px"
+                height="20px"
+                alt=""
+              />
+              Reaction
+            </span>
+            <span style="color:#303b59;">80 <span style="color:#97a0a6;">/100</span>  </span> 
+          </p>
+          <p class="memory p-summary sumBox">
+            <span class="icon-align" style="color:  #ffbf46"">
+            <img
+              src="assets/images/icon-memory.svg"
+              width="20px"
+              height="20px"
+              alt=""
+            />
+            Memory 
+            </span>
+            <span style="color:#303b59;">92 <span style="color:#97a0a6;">/100</span>  </span> 
+          </p>
+          <p class="verbal p-summary sumBox" style="color: #79dbc5">
+            <span class="icon-align">
+            <img
+              src="assets/images/icon-verbal.svg"
+              width="20px"
+              height="20px"
+              alt=""
+            />
+            Verbal
+            </span> 
+            <span style="color:#303b59;">61 <span style="color:#97a0a6;">/100</span>  </span>  
+          </p>
+          <p class="visual p-summary sumBox" style="color: #1125d6">
+            <span class="icon-align">
+              <img
+                src="assets/images/icon-visual.svg"
+                width="20px"
+                height="20px"
+                alt=""
+              />
+              Visual
+            </span> 
+            <span style="color:#303b59;">72 <span style="color:#97a0a6;">/100</span>  </span>  
+          </p>
+        </div>
+
+        <button
+          class="button-continue p-summary sumBox"
+          style="justify-content: center"
+        >
+          Continue
+        </button>
+      </div>
+      <!--############# End Container Summary-->
+    </div>
+  </body>
+</html>
